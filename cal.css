@@ -1,0 +1,40 @@
+main{
+    margin-left: 20%;
+}
+.calculator{
+    margin: auto;
+    width: 400px;
+    /* height: 500px; */
+    padding: 40px 100px;
+    /* border: 1px solid ; */
+    /* background-color: lightgray; */
+    border-radius: 5px;
+}
+button{
+    padding: 30px;
+    margin-bottom: 5px;
+
+    color: white;
+    border: none;
+}
+button:active{
+    background-color: blueviolet;
+}
+input{
+    width: 350px;
+    border-radius: 5px;
+    height: 48px;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 10px lightgray;
+    border: 0px;
+    outline: none;
+}
+.operators{
+    background-color: rgb(89, 154, 234);
+}
+.clear-off{
+    background-color: rgb(122, 213, 255);
+}
+.numbers{
+    background-color: rgb(122, 213, 255);
+}
